@@ -9,4 +9,3 @@ let swiper = new Swiper('.swiper', {
         disableInteraction: false,
     }
   });
-  
