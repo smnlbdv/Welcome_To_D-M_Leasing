@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Document</title>
 </head>
@@ -21,7 +21,7 @@
                     <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__list-item">
-                                <a href="#" class="menu__list-link">NEW CARS</a>
+                                <a href="#" class="menu__list-link-active">NEW CARS</a>
                             </li>
                             <li class="menu__list-item">
                                 <a href="#" class="menu__list-link">PRE-OWNED CARS</a>
@@ -41,13 +41,91 @@
             </div>
         </header>
         <main class="main">
+            <section class="section__car">
+                <div class="container">
+                    <h2 class="section__title">
+                        Choose your car
+                    </h2>
+                    <div class="section__car-filters">
+                        <button class="filters-item filters-item--active" data-button="content-1">
+                            Car and Minivan
+                        </button>
+                        <button class="filters-item" data-button="content-2">
+                            Trucks
+                        </button>
+                        <button class="filters-item" data-button="content-3">
+                            Crossovers & SUVs
+                        </button>
+                        <button class="filters-item" data-button="content-4">
+                            Electrified
+                        </button>
+                    </div>
+                    <div class="car__block car__block-active" id="content-1">
+                        <div class="car__block-item">
+                            <div class="block-item__img">
+                                <img class="item__img" src="/assets/images/inner_car1.jpg" alt="">
+                            </div>
+                            <h3 class="item__title">Toyota Crown 2023</h3>
+                            <h4 class="item__starting">starting from $ 39900</h4>
+                            <p class="item__price">$ 650/mo</p>
+                            <div class="item__footer">see details</div>
+                        </div>
+                        <div class="car__block-item">
+                            <div class="block-item__img">
+                                <img class="item__img" src="/assets/images/inner_car1.jpg" alt="">
+                            </div>
+                            <h3 class="item__title">Toyota Crown 2023</h3>
+                            <h4 class="item__starting">starting from $ 39900</h4>
+                            <p class="item__price">$ 650/mo</p>
+                            <div class="item__footer">see details</div>
+                        </div>
+                        <div class="car__block-item">
+                            <div class="block-item__img">
+                                <img class="item__img" src="/assets/images/inner_car1.jpg" alt="">
+                            </div>
+                            <h3 class="item__title">Toyota Crown 2023</h3>
+                            <h4 class="item__starting">starting from $ 39900</h4>
+                            <p class="item__price">$ 650/mo</p>
+                            <div class="item__footer">see details</div>
+                        </div>
+                        <div class="car__block-item">
+                            <div class="block-item__img">
+                                <img class="item__img" src="/assets/images/inner_car1.jpg" alt="">
+                            </div>
+                            <h3 class="item__title">Toyota Crown 2023</h3>
+                            <h4 class="item__starting">starting from $ 39900</h4>
+                            <p class="item__price">$ 650/mo</p>
+                            <div class="item__footer">see details</div>
+                        </div>
+                        <div class="car__block-item">
+                            <div class="block-item__img">
+                                <img class="item__img" src="/assets/images/inner_car1.jpg" alt="">
+                            </div>
+                            <h3 class="item__title">Toyota Crown 2023</h3>
+                            <h4 class="item__starting">starting from $ 39900</h4>
+                            <p class="item__price">$ 650/mo</p>
+                            <div class="item__footer">see details</div>
+                        </div>
+                        <div class="car__block-item">
+                            <div class="block-item__img">
+                                <img class="item__img" src="/assets/images/inner_car1.jpg" alt="">
+                            </div>
+                            <h3 class="item__title">Toyota Crown 2023</h3>
+                            <h4 class="item__starting">starting from $ 39900</h4>
+                            <p class="item__price">$ 650/mo</p>
+                            <div class="item__footer">see details</div>
+                        </div>
+                    </div>
+                    <div class="car__block " id="content-2">
+                        2
+                    </div>
+                    <div class="car__block" id="content-3">
+                        3
+                    </div>
+                    <button class="cars__button">SHOW MORE</button>
+                </div>
+            </section>
 
-
-
-
-
-
-            
             <section class="section-news">
                 <div class="container news_container">
                     <div class="block-news">
@@ -164,5 +242,6 @@
             </div>
         </footer>
     </div>
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>
